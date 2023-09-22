@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+}
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+.banner {
+  gap: 90px;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+.flex {
+  display: flex;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  justify-content: center;
+  display: flex;
+}
+.header {
+  flex-direction: column;
+  gap: 30px;
+  font-size: 60px;
+  color: #303030;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.name {
+  width: 500px;
+  height: 400px;
+}
+.one {
+  background-color: #101010;
+  justify-content: center;
+  height: 60px;
+}
+.img {
+  gap: 66px;
+  flex-wrap: wrap;
+  height: auto;
+}
+.container-1 {
+  padding-top: 150px;
+  gap: 70px;
+  position: relative;
+}
+.con-left {
+  width: 480px;
+  font-size: 40px;
+  color: #303030;
+  flex-direction: column;
+  gap: 100px;
+}
+.direct p {
+  font-size: 60px;
+  color: #1ac74a;
+  font-family: Nico Moji;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 100px;
+  flex-direction: column;
+}
+.infos {
+  gap: 24px;
+  flex-direction: column;
+}
+.info {
+  border: 400 40;
+  font-size: 14px;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+}
+.info:hover {
+  background-color: #101010;
+  color: #fff;
+  transition: 0.3s;
+}
+.color {
+  background-color: #f4f4f4;
+  color: #303030;
+  border: 1px solid #101010;
+  width: 450px;
+}
+.info-left {
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+.empty-image {
+  position: relative;
+  width: 550px;
+  height: 1050px;
+}
+.image {
+  background-image: url(./images/image\ 29.png);
+  position: absolute;
+  width: 720;
+  right: 19%;
+  top: 19%;
+  width: 550px;
+  height: 950px;
+}
+.day-2:hover ~ .image {
+  background-image: url(./images/image\ 30.png);
+  transition: 0.4s;
+}
+.day-3:hover ~ .image {
+  background-image: url(./images/image\ 31.png);
+}
+.day-4:hover ~ .image {
+  background-image: url(./images/image\ 32.png);
+}
+.day-5:hover ~ .image {
+  background-image: url(./images/image\ 33.png);
+}
+.day-6:hover ~ .image {
+  background-image: url(./images/image\ 29.png);
+}
+.con-top {
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  color: #303030;
+}
+.con-last {
+  flex-direction: column;
+  gap: 80px;
+  background-color: #f4f4f4;
+}
+.con-bottom {
+  flex-direction: row;
+  gap: 65px;
+}
+.size {
+  border: 2px solid;
+  border-color: #fff;
+  width: 308px;
+  height: 373px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  font-size: 23px;
+  color: #777777;
+  border-radius: 8px;
+  background: #fff;
+  gap: 70px;
+}
+.footer {
+  background-color: #171717;
+  gap: 40px;
+  flex-direction: column;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 23px;
+}
+.footer-top {
+  text-align: center;
+  height: auto;
+  gap: 20px;
+  flex-direction: column;
+}
+.footer-btn {
+  background-color: #18ba51;
+  display: inline-flex;
+  width: 130px;
+  min-height: 44px;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 4px;
+  border: solid;
+  border: 60 30;
+  color: #ffffff;
+}
+.footer-bottom {
+  width: 80%;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.footer-left {
+  width: 50px;
+}
+.footer-right {
+  flex-direction: row;
+  gap: 20px;
+}
+.sizes {
+  min-height: 30px;
+  width: 120px;
+  height: 30px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #303030;
+  border-radius: 4px;
+  font-size: 12px;
+}
+@media screen and (max-width: 1620px) {
+  .image {
+    display: none;
+  }
+  .empty-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 790px) {
+  .size {
+    width: 250px;
+  }
+  .img {
+    justify-content: center;
+  }
+  .container-1 {
+    width: none;
+  }
+}
+@media screen and (max-width: 675px) {
+  .con-bottom {
+    flex-direction: column;
+  }
+  .img {
+    justify-content: center;
+  }
+  .img-size {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-right {
+    flex-direction: column;
+  }
+  .con-left {
+    width: 400px;
+  }
+  .color {
+    width: 330px;
+  }
+}
+@media screen and (max-width:500px) {
+    .name h1 {
+      font-size: 80px;
+    }
+    .name {
+      width: auto;
+      height: 280px;
+    }
+}
